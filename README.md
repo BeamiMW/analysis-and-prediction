@@ -94,3 +94,31 @@ Setelah melakukan beberapa percobaan dengan mencoba 6 algoritma untuk menemukan 
 2. Menganalisa data-data yang model yang masih salah tebak (False Negative dan terutama False Positive) untuk mengetahui alasan dan karakteristiknya.
 3. Menambahkan jumlah data terutama pada kategori cancel agar memperoleh informasi yang lebih akurat.
 4. Menerapkan threshold
+
+# Conclusion
+Berdasarkan hasil classification report dari model, saya dapat menyimpulkan bahwa bila seandainya nanti menggunakan model ini untuk memfilter reservasi yang akan nanti coba dialihkan kepada customer lain untuk meningkatkan pendapatan, maka model ini dapat mengurangi 31% reservasi yang tidak cancel untuk tidak dialihkan kepada customer lain, dan model ini dapat mendapatkan 100% reservasi yang akan cancel dari seluruh reservasi yang cancel. (semua ini berdasarkan recallnya)
+
+Model ini memiliki ketepatan prediksi reservasi yang akan cancel sebesar 35% (precisionnya), jadi setiap model ini memprediksi bahwa reservasi itu cancel, maka kemungkinan tebakannya benar itu sebesar 35% kurang lebih. Maka masih akan ada reservasi yang sebenarnya tidak akan cancel tetapi di prediksi sebagai reservasi yang cancel sekitar 69% dari keseluruhan reservasi yang tidak cancel (berdasarkan recall).
+
+Statistik Cancel menggunakan y_test (20%):
+
+0: 3.809
+1: 13.098
+Total data: 16.907
+Tanpa model:
+
+Apabila pada periode tertentu ada 16.907 customer yang melakukan reservasi dengan tarif rata-rata harian 100 euro. Dan ada 4.568 akan cancel dan 12.339 tidak akan cancel. Maka tanpa model, kita tidak akan tahu mana yang akan cancel dan yang tidak cancel. Maka perhitungannya:
+
+Total pendapatan reservasi = 16.907 x 100 euro = 1.690.700 euro (apabila semua reservasi terjadi)
+Total kerugian = 4.568 customer x 100 euro = 456.800 euro (karena tidak dialihkan kepada customer lain)
+Total pendapatan ADR = 1.690.700 - 456.800 = 1.233.900 euro (setelah dikurangi kerugian)
+Dengan model:
+
+TP = 4.551 reservasi akan dialihkan kepada customer lain maka 4.551 x 100 euro = 455.100 euro (pendapatan)
+TN = 3.792 reservasi terjadi maka 3.792 x 100 euro = 379.200 euro (pendapatan)
+FP = 8.547 reservasi terjadi namun mismanagement service karena reservasi dialihkan kepada customer baru dan customer asli bisa dapat kamar lebih mahal atau lebih murah. Namun hotel masih untung. Maka 8.547 x 100 euro = 854.700 euro (pendapatan)
+FN = 17 reservasi tidak terjadi karena cancel dan tidak dialihkan kepada customer lain, maka 17 x 100 euro = 17.100 euro (kerugian)
+Total pendapatan ADR = 1.689.000 euro
+Dengan model, kita bisa meningkatkan pendapatan sebesar 455.100 euro
+
+% Kenaikan = 455.100 / 1.233.900 x 100 = 37%
