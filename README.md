@@ -110,17 +110,18 @@ Tanpa model:
 
 Apabila pada periode tertentu ada 16.907 customer yang melakukan reservasi dengan tarif rata-rata harian 100 euro. Dan ada 4.568 akan cancel dan 12.339 tidak akan cancel. Maka tanpa model, kita tidak akan tahu mana yang akan cancel dan yang tidak cancel. Maka perhitungannya:
 
-Total pendapatan reservasi = 16.907 x 100 euro = 1.690.700 euro (apabila semua reservasi terjadi)
-Total kerugian = 4.568 customer x 100 euro = 456.800 euro (karena tidak dialihkan kepada customer lain)
-Total pendapatan ADR = 1.690.700 - 456.800 = 1.233.900 euro (setelah dikurangi kerugian)
+- Total pendapatan reservasi = 16.907 x 100 euro = 1.690.700 euro (apabila semua reservasi terjadi)
+- Total kerugian = 4.568 customer x 100 euro = 456.800 euro (karena tidak dialihkan kepada customer lain)
+- Total pendapatan ADR = 1.690.700 - 456.800 = 1.233.900 euro (setelah dikurangi kerugian)
 
 Dengan model:
 
-TP = 4.551 reservasi akan dialihkan kepada customer lain maka 4.551 x 100 euro = 455.100 euro (pendapatan)
-TN = 3.792 reservasi terjadi maka 3.792 x 100 euro = 379.200 euro (pendapatan)
-FP = 8.547 reservasi terjadi namun mismanagement service karena reservasi dialihkan kepada customer baru dan customer asli bisa dapat kamar lebih mahal atau lebih murah. Namun hotel masih untung. Maka 8.547 x 100 euro = 854.700 euro (pendapatan)
-FN = 17 reservasi tidak terjadi karena cancel dan tidak dialihkan kepada customer lain, maka 17 x 100 euro = 17.100 euro (kerugian)
-Total pendapatan ADR = 1.689.000 euro
+- TP = 4.551 reservasi akan dialihkan kepada customer lain maka 4.551 x 100 euro = 455.100 euro (pendapatan)
+- TN = 3.792 reservasi terjadi maka 3.792 x 100 euro = 379.200 euro (pendapatan)
+- FP = 8.547 reservasi terjadi namun mismanagement service karena reservasi dialihkan kepada customer baru dan customer asli bisa dapat kamar lebih mahal atau lebih murah. Namun hotel masih untung. Maka 8.547 x 100 euro = 854.700 euro (pendapatan)
+- FN = 17 reservasi tidak terjadi karena cancel dan tidak dialihkan kepada customer lain, maka 17 x 100 euro = 17.100 euro (kerugian)
+- Total pendapatan ADR = 1.689.000 euro
+
 Dengan model, kita bisa meningkatkan pendapatan sebesar 455.100 euro
 
 % Kenaikan = 455.100 / 1.233.900 x 100 = 37%
