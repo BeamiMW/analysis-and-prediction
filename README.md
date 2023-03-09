@@ -113,6 +113,7 @@ Apabila pada periode tertentu ada 16.907 customer yang melakukan reservasi denga
 Total pendapatan reservasi = 16.907 x 100 euro = 1.690.700 euro (apabila semua reservasi terjadi)
 Total kerugian = 4.568 customer x 100 euro = 456.800 euro (karena tidak dialihkan kepada customer lain)
 Total pendapatan ADR = 1.690.700 - 456.800 = 1.233.900 euro (setelah dikurangi kerugian)
+
 Dengan model:
 
 TP = 4.551 reservasi akan dialihkan kepada customer lain maka 4.551 x 100 euro = 455.100 euro (pendapatan)
