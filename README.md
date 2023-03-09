@@ -86,7 +86,7 @@ Setelah melakukan beberapa percobaan dengan mencoba 6 algoritma untuk menemukan 
 4. Batasi tenggat waktu pembatalan maksimal 5 hari dari tanggal kedatangan dan berikan notifikasi melalui email/platform/aplikasi untuk mengonfirmasi kedatangan/tidak.
 5. Buat kebijakan uang deposit tidak kembali apabila tidak mengonfirmasi pembatalan H-15 kedatangan dan bisa hapus sistem no deposit
 6. Jika reservasi diperkirakan akan dibatalkan dan kamar telah terjual ke customer lain, namun customer asli tetap datang. Maka bisa geser jam check in untuk customer asli atau geser jam check out untuk tamu yang akan check out. Sehingga akan kebagian kamar.
-7. Jika customer reservasi kamar kelas lebih tinggi namun yang tersedia kamar kelas yang lebih rendah maka coba tawarkan cashback sebesar selisih harga kamar yang dipesan/ voucher selisih harga kamar
+7. Jika customer reservasi kamar kelas lebih tinggi namun yang tersedia kamar kelas yang lebih rendah maka coba tawarkan cashback sebesar selisih harga kamar yang dipesan/ voucher sebesar selisih harga kamar
 8. Bulan ramai tamu menginap adalah Juli-Agustus, pada bulan tersebut bisa membuat event menarik di hotel atau menyewakan area hotel untuk bazar misalnya. Hal tersebut juga bisa meningkatkan revenue hotel.
 
 # Recommendation for Model
