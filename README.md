@@ -102,9 +102,10 @@ Model ini memiliki ketepatan prediksi reservasi yang akan cancel sebesar 35% (pr
 
 Statistik Cancel menggunakan y_test (20%):
 
-0: 3.809
-1: 13.098
-Total data: 16.907
+- 0: 3.809
+- 1: 13.098
+- Total data: 16.907
+
 Tanpa model:
 
 Apabila pada periode tertentu ada 16.907 customer yang melakukan reservasi dengan tarif rata-rata harian 100 euro. Dan ada 4.568 akan cancel dan 12.339 tidak akan cancel. Maka tanpa model, kita tidak akan tahu mana yang akan cancel dan yang tidak cancel. Maka perhitungannya:
